@@ -1,5 +1,6 @@
-# RPi-ip-oled
+# RPi ip-oled
 PWr Raspberry Pi ip print on OLED display.
+![alt text](https://github.com/petrusvr/RPi-ip-oled/blob/main/git_resources/oled.jpg?raw=true)
 
 ## Install steps
 Install required packages:
