@@ -46,8 +46,8 @@ def main():
         ints = list(ips.keys())
         
         draw = oled.NewFrame("BLACK")
-        draw.text((0, 0), ints[0], font=fontxSmall, fill="BLUE")
-        draw.text((0, 13), ips[ints[0]], font=fontxSmall, fill="BLUE")   
+        draw.text((0, 0), ints[0], font=fontxSmall, fill="YELLOW")
+        draw.text((0, 13), ips[ints[0]], font=fontxSmall, fill="YELLOW")   
         draw.text((0, 27), ints[1], font=fontxSmall, fill="GREEN")
         draw.text((0, 41), ips[ints[1]], font=fontxSmall, fill="GREEN")
         
