@@ -12,7 +12,7 @@ doRun = True
 def buttonPressed(channel):
     global doRun
     print("Button pressed on GPIO="+str(channel),"Stopping programm!")
-    doRun = False;
+    doRun = False
     
 def main():
     global doRun
