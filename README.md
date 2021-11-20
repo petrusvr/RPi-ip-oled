@@ -11,7 +11,7 @@ Install required packages:
 
 Download released installer
 ```console
-wget https://github.com/petrusvr/RPi-ip-oled/releases/download/v1.0.0/ip-oled.zip
+wget https://github.com/petrusvr/RPi-ip-oled/releases/download/v1.0.1/ip-oled.zip
 ```
 
 Unzip installer
