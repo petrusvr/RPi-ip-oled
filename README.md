@@ -64,11 +64,11 @@ To stop the application, press any of the buttons on the RPi kit (red or green).
 
 Restarting the application manually is possible by executing the command:
 ```console
-sudo systemctl start ip-oled
+sudo systemctl start ip-oled.service
 ```
 
 Checking the application operation status is possible by command:
 ```console
-sudo systemctl status ip-oled
+sudo systemctl status ip-oled.service
 ```
 
