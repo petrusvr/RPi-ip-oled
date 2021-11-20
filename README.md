@@ -5,9 +5,9 @@ To make working with the Raspberry Pi lab kit easier, a service has been prepare
 ## Install steps
 Install required packages:
 ```console
-/home/pi# sudo apt install unzip
+sudo apt install unzip
 
-/home/pi# sudo apt install wget
+sudo apt install wget
 ```
 
 Download released installer
