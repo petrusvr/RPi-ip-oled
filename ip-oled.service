@@ -1,0 +1,11 @@
+ [Unit]
+ Description=Service that displays IPs on OLED
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ WorkingDirectory=/usr/lib/ip-oled
+ ExecStart=/usr/bin/python3 /usr/lib/ip-oled/main.py 
+
+ [Install]
+ WantedBy=multi-user.target
