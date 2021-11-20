@@ -1,5 +1,6 @@
 # RPi ip-oled.service
 To make working with the Raspberry Pi lab kit easier, a service has been prepared which shows the current configuration of the network interfaces on a connected display. Once installed, the application starts automatically so there is no need to connect a monitor and keyboard to the RPi kit. To work with the kit, you can use the VNC Client, which will connect to the IP address displayed on the OLED display.
+
 ![OLED display on kit](https://github.com/petrusvr/RPi-ip-oled/blob/main/git_resources/oled.jpg?raw=true)
 
 ## Install steps
