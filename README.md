@@ -1,6 +1,6 @@
-# RPi ip-oled
-PWr Raspberry Pi ip print on OLED display.
-![alt text](https://github.com/petrusvr/RPi-ip-oled/blob/main/git_resources/oled.jpg?raw=true)
+# RPi ip-oled.service
+To make working with the Raspberry Pi lab kit easier, a service has been prepared which shows the current configuration of the network interfaces on a connected display. Once installed, the application starts automatically so there is no need to connect a monitor and keyboard to the RPi kit. To work with the kit, you can use the VNC Client, which will connect to the IP address displayed on the OLED display.
+![OLED display on kit](https://github.com/petrusvr/RPi-ip-oled/blob/main/git_resources/oled.jpg?raw=true)
 
 ## Install steps
 Install required packages:
@@ -55,3 +55,19 @@ Nov 20 19:51:46 raspberrypi systemd[1]: Started Service that displays IPs on OLE
 Yupi, reboot system to check ip-oled starts at system boot
 
 ```
+
+## Usage instructions
+Once correctly installed, the application launches itself together with the start of the operating system. After a while, the display will show the current IP addresses for both network interfaces (eth0 and wlan0). The application checks every 5 seconds whether the address has not changed.  If the IP address changes during the application run, the display shows the new configuration.
+
+To stop the application, press any of the buttons on the RPi kit (red or green).
+
+Restarting the application manually is possible by executing the command:
+```console
+sudo systemctl start ip-oled
+```
+
+Checking the application operation status is possible by command:
+```console
+sudo systemctl status ip-oled
+```
+
